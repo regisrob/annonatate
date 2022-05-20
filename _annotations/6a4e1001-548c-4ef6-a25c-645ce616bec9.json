@@ -1,0 +1,35 @@
+---
+canvas: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/cocina-fileSet-wh234bz9013-wh234bz9013_1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "tannia",
+            "purpose": "commenting",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2022-05-20T17:40:39.497Z",
+            "modified": "2022-05-20T17:40:40.651Z"
+        }
+    ],
+    "target": {
+        "source": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/cocina-fileSet-wh234bz9013-wh234bz9013_1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3292.202392578125,1374.7684326171875,143.512939453125,65.83154296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://purl.stanford.edu/wh234bz9013/iiif/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6a4e1001-548c-4ef6-a25c-645ce616bec9.json",
+    "motivation": "commenting"
+}
