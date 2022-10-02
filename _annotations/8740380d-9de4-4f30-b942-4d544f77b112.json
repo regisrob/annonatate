@@ -1,0 +1,30 @@
+---
+canvas: "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Venus",
+            "purpose": "identifying",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2022-10-02T18:01:32.635Z",
+            "modified": "2022-10-02T18:01:37.126Z"
+        }
+    ],
+    "target": {
+        "source": "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3809.4345703125\" cy=\"1044.1388549804688\" r=\"5.8211043571244465\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8740380d-9de4-4f30-b942-4d544f77b112.json",
+    "motivation": "commenting"
+}
