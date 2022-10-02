@@ -1,0 +1,30 @@
+---
+canvas: "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mars",
+            "purpose": "identifying",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2022-10-02T18:02:53.013Z",
+            "modified": "2022-10-02T18:02:56.977Z"
+        }
+    ],
+    "target": {
+        "source": "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3108.08837890625\" cy=\"679.651611328125\" r=\"6.757315173343933\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "33c35dfc-1ed7-4202-9859-5bd834011ae5.json",
+    "motivation": "commenting"
+}
