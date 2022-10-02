@@ -1,0 +1,30 @@
+---
+canvas: "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Earth",
+            "purpose": "identifying",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2022-10-02T18:00:34.666Z",
+            "modified": "2022-10-02T18:00:52.574Z"
+        }
+    ],
+    "target": {
+        "source": "https://free.iiifhosting.com/iiif/358ee1004d21c0600aa8a595bd9484210bb4292039ec1336322046061fb4c4e9/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"5526.941650390625\" cy=\"2529.7916259765625\" r=\"10.365290508474075\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0b5c706d-0e79-4e7d-b151-adb64ef0f32f.json",
+    "motivation": "commenting"
+}
