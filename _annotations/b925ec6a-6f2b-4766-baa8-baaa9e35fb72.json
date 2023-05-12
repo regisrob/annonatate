@@ -1,0 +1,31 @@
+---
+canvas: "https://www.biusante.parisdescartes.fr/iiif/2/bibnum:ms02228:0002/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2023-05-12T07:52:43.884Z",
+            "modified": "2023-05-12T07:52:44.229Z"
+        }
+    ],
+    "target": {
+        "source": "https://www.biusante.parisdescartes.fr/iiif/2/bibnum:ms02228:0002/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=22875.076171875,643.4146118164062,1284.3125,610.6223754882812"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b925ec6a-6f2b-4766-baa8-baaa9e35fb72.json",
+    "motivation": "commenting"
+}
