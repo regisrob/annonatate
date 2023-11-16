@@ -1,0 +1,37 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Donut",
+            "purpose": "commenting",
+            "creator": {
+                "id": "regisrob",
+                "name": "R\u00e9gis Robineau"
+            },
+            "created": "2023-11-16T15:01:30.944Z",
+            "modified": "2023-11-16T15:01:31.720Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2104.8847045898438\" cy=\"2495.8511962890625\" rx=\"852.9915161132812\" ry=\"390.9544677734375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1d946fa7-6294-48a6-bb6b-496b453b3c6a.json",
+    "motivation": "commenting"
+}
