@@ -1,0 +1,82 @@
+---
+added: '2023-11-16 15:05:00.038586'
+thumbnail: https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406160j/f56/full/120,/0/default.jpg
+title: !!python/object/apply:collections.OrderedDict
+- - - '@value'
+    - "Pers\xE9e"
+  - - '@language'
+    - en
+user: "R\xE9gis Robineau"
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://regisrob.github.io/annonatate/manifests/manifest/bd58p/manifest.json",
+  "@type": "sc:Manifest",
+  "label": {
+    "@value": "Pers\u00e9e",
+    "@language": "en"
+  },
+  "metadata": [
+    {
+      "label": "author",
+      "value": "Unknown"
+    },
+    {
+      "label": "provider",
+      "value": "cogapp"
+    }
+  ],
+  "manifestid": "bd052f107e4911eeaeba615b6e2543c1",
+  "description": {
+    "@value": " Pers\u00e9e (mythologie grecque)",
+    "@language": "en"
+  },
+  "viewingHint": "paged",
+  "viewingDirection": "left-to-right",
+  "attribution": " ",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "canvases": [
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406160j/f56/canvas/c0",
+          "label": {
+            "@value": "Pers\u00e9e\n\n\n Pers\u00e9e (mythologie grecque)\n\n",
+            "@language": "en"
+          },
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@type": "sc:Canvas",
+          "width": 3222,
+          "height": 4934,
+          "images": [
+            {
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406160j/f56/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3222,
+                "height": 4934,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/1/level2.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406160j/f56"
+                }
+              },
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8406160j/f56/canvas/c0"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/bd052f107e4911eeaeba615b6e2543c1/annotations.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
